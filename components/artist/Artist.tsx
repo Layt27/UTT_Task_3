@@ -8,6 +8,7 @@ import { IoLogoApple } from 'react-icons/io5'
 import { FaYoutube } from 'react-icons/fa'
 import biographyImg from '@/public/images/biography_image.jpg'
 import achievementsImg from '@/public/images/achievements_image.jpg'
+import BackToTopNavigation from './BackToTopNavigation'
 
 const Artist = () => {
     return (
@@ -105,6 +106,8 @@ const Artist = () => {
                     </div>
                 </div>
             </div>
+
+            <BackToTopNavigation />
         </div>
     )
 }
