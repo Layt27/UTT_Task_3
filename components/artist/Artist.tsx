@@ -21,14 +21,21 @@ const Artist = () => {
                         <span>Renowned Indian Singer</span>
                     </div>
 
-                    {/* Hero Image */}
-                    <div className="py-5">
+                    {/* Hero Image and Info */}
+                    <div className="flex justify-between space-x-5 py-5">
+                        <p className="flex items-center text-center text-[7px] sm:text-xs md:text-sm lg:text-base xl:text-lg">
+                            Most streamed Indian female artist on Spotify in
+                            2021, 2022 and 2023.
+                        </p>
                         <Image
                             src={heroImg}
                             alt="hero image"
-                            className="object-contain"
-                            layout="responsive"
+                            className="object-contain w-[50%] h-[50%]"
                         />
+                        <p className="flex items-center text-center text-[7px] sm:text-xs md:text-sm lg:text-base xl:text-lg">
+                            Most streamed Indian female artist on Apple Music in
+                            2021 and Amazon Music in 2022.
+                        </p>
                     </div>
 
                     {/* Latest Release Section */}
