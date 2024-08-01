@@ -7,6 +7,7 @@ import { AiFillSpotify } from 'react-icons/ai'
 import { IoLogoApple } from 'react-icons/io5'
 import { FaYoutube } from 'react-icons/fa'
 import biographyImg from '@/public/images/biography_image.jpg'
+import achievementsImg from '@/public/images/achievements_image.jpg'
 
 const Artist = () => {
     return (
@@ -52,7 +53,7 @@ const Artist = () => {
                         Biography
                     </span>
                     <div className="flex flex-col xs:max-md:text-center xs:max-md:items-center xs:max-md:space-y-4 md:flex-row md:justify-between md:space-x-10">
-                        <p className="md:flex md:items-center md:text-wrap lg:basis-2/3 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
+                        <p className="md:flex md:items-center lg:basis-2/3 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
                             Shreya Ghoshal, born on March 12, 1984, in
                             Berhampore, West Bengal, is a celebrated Indian
                             singer known for her wide vocal range and
@@ -68,9 +69,39 @@ const Artist = () => {
                         </p>
                         <Image
                             src={biographyImg}
-                            alt="hero image"
+                            alt="biography image"
                             className="object-contain w-[70%] h-[70%]"
                         />
+                    </div>
+                </div>
+
+                {/* Achievements Section */}
+                <div className="flex flex-col items-center space-y-3 md:space-y-5">
+                    <span className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+                        Achievements
+                    </span>
+                    <div className="flex flex-col xs:max-md:text-center xs:max-md:items-center xs:max-md:space-y-6 md:flex-row md:justify-between w-full md:max-xl:space-x-10">
+                        <Image
+                            src={achievementsImg}
+                            alt="achievements image"
+                            className="object-contain w-[50%] h-[50%] basis-2/5"
+                        />
+                        <ul className="md:flex md:flex-col md:justify-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl space-y-2 lg:space-y-5 xl:space-y-8 2xl:space-y-12">
+                            <li>
+                                5 National Film Awards for Best Female Playback
+                                Singer
+                            </li>
+                            <li>
+                                7 Filmfare Awards, including the RD Burman Award
+                                for New Music Talent
+                            </li>
+                            <li>6 awards for Best Female Playback Singer</li>
+                            <li>
+                                9 Filmfare Awards South for Best Female Playback
+                                Singer
+                            </li>
+                            <li>2 Tamil Nadu State Film Awards</li>
+                        </ul>
                     </div>
                 </div>
             </div>
