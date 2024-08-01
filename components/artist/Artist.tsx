@@ -16,7 +16,7 @@ const Artist = () => {
             <div className="flex flex-col space-y-14 lg:space-y-28">
                 <div className="flex flex-col">
                     {/* Heading / Main Line */}
-                    <div className="flex justify-between text-green-700 font-serif font-medium text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+                    <div className="flex justify-between md:pb-5 text-green-700 font-serif font-medium text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
                         <span>Shreya Ghoshal</span>
                         <span>Renowned Indian Singer</span>
                     </div>
